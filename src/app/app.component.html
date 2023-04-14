@@ -1,0 +1,38 @@
+
+    <div class="panel" style="visibility:hidden" #panel>
+        <h4 id="puntuacion">Puntos: <b>{{ puntos }}</b></h4>
+        <div class="divImg" style="display: inline-block;"><img class="img2" src="../assets/smile2.gif"></div>
+        <div id="tiempo">Tiempo: <span id="contador"></span></div> 
+        
+    </div>
+    
+    <div class="containerceldas" #containerceldas>
+        <div></div>
+    </div>
+    
+    <div class="menu" #menu>
+        <h1>BUSCAMINAS</h1>
+        <br>
+        <hr>
+        <br>
+        <div class="divImg"><img class="img1" src="./bomba.jpg"></div>
+        <form class="form-wrapper">
+        </form>
+        <h2>¡Bienvenido! <span>Selecciona la dificultad del juego</span></h2>
+        <br>
+        <hr>
+        <br>
+        <div class="containerBotones">
+        <button class="btnEasy mdl-button--raised" (click)="selectGame(0)">BAJA</button>
+        <button class="btnHard mdl-button--raised" (click)="selectGame(1)">ALTA</button>
+        </div>
+    </div> 
+
+
+ 
+
+    
+   
+    
+    
+
