@@ -302,5 +302,6 @@ function InteraccionCeldas() {
 			}
 		}
 	}
+	
 	removeEventListener("click", InteraccionCeldas);
 }
